@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_data",
+						"type": "string"
+					}
+				],
+				"name": "hashData",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_data",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_hash",
+						"type": "bytes32"
+					}
+				],
+				"name": "verifyHash",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hashing_with_keccac256.sol": "HashingExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hashing_with_keccac256.sol": {
+			"keccak256": "0x7b3792d8c98e305415f38786c280fe72822cd83db1c56173c6a23f2a7cc099a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61b684ae4c89869e0929a7fda26cb496ebdabfeb993bd513e097bdc39b36fbb3",
+				"dweb:/ipfs/QmSRXsvXCh1ojmyta2uw93Hmg91dyEH946FTWKp8cxptKz"
+			]
+		}
+	},
+	"version": 1
+}
